@@ -9,15 +9,13 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
-public class MemberVO {
-	
+public class TimeLineVO {
+
 	
 	private Integer mno;
-	private String id;
-	private String pw;
-	private String name;
-	private String email;
+	private Integer writerMno;
+	private Integer tno;
+	private String content;
 	private Date regDate;
 	private Date updateDate;
-
 }

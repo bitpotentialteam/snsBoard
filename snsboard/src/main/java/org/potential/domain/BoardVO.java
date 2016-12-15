@@ -9,15 +9,17 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
-public class MemberVO {
-	
+public class BoardVO {
+
 	
 	private Integer mno;
-	private String id;
-	private String pw;
-	private String name;
-	private String email;
+	private Integer bno;
+	private Integer ino;
+	private String title;
+	private String content;
+	private Integer viewCount;
+	private Integer likeCount;
+	private Integer replyCount;
 	private Date regDate;
 	private Date updateDate;
-
 }

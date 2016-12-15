@@ -9,15 +9,14 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
-public class MemberVO {
+public class ReplyVO {
+
 	
-	
+//	private Integer rno;
+//	private Integer rrno;
+//	private Integer rorder;	// 복층형 데이터 
 	private Integer mno;
-	private String id;
-	private String pw;
-	private String name;
-	private String email;
+	private String content;
 	private Date regDate;
 	private Date updateDate;
-
 }
